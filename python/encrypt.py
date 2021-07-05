@@ -39,7 +39,7 @@ def encryptData(data,size,fp=0.01,n=2,bpower=8,p=None):
 
     return bloomfilter
 
-# '0xC1844bbe0537cE51F95F9EC08c55D697fCcf3f17'
+
 def bitarray2int(ba):
     import struct
     return int(ba.to01(), 2)
@@ -253,13 +253,6 @@ def exec_comparasion_regular_vs_bcjaccard(rows,web3,dc,sleep_time=0.5):
         results.append(r)
         time.sleep(sleep_time)
     return results
-
-# import pandas as pd
-# r = exec_comparasion_regular_vs_bcjaccard(encrypted_entities[0:5],web3,deployed_contract,bitlen=128,sleep_time=0.7)
-# df = pd.DataFrame.from_records(r[1:], columns=r[0])
-# print(df[['regular_jaccard' , 'bc_jaccard']])
-# del r , df
-
 
 
 # reogranizar em outro local
