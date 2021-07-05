@@ -1,0 +1,14 @@
+#pycryptodome==3.5.1
+#pip install web3 eth-hash pycryptodome pysha3 --user
+web3
+eth-hash 
+pycryptodome 
+pysha3
+py-solc
+py-solc-x
+ngram
+xxhash
+bitarray
+
+nufhe
+Pyfhel
