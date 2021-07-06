@@ -12,3 +12,9 @@ bitarray
 
 nufhe
 Pyfhel
+
+pandas==1.2.5
+tqdm==4.61.1
+seaborn
+matplotlib
+numpy
