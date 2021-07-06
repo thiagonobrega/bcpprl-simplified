@@ -7,4 +7,4 @@ This repository contains a simplified version of the solution originally availab
 
 In this repository, we created a simulation of the original protocol to facilitate the assessment of protocol characteristics - e.g., privacy.
 
-All of the steps are exposed in a [python/sim_bbpprl.ipynb](Jupyter notebook).
+All of the steps are exposed in a [Jupyter notebook](python/sim_bbpprl.ipynb).
